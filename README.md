@@ -2,11 +2,14 @@
 This dataset contains details on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 #Dataset Description:
 The dataset covers credit card transactions in the country of Taiwan. We have around 30000 instances and 24 attributes. A few additional characteristics of our dataset are as follows:
-![image](https://user-images.githubusercontent.com/30767136/205475898-de25afce-9d74-4264-acd4-f5c704e84fa2.png)
-<img width="528" alt="image" src="https://user-images.githubusercontent.com/30767136/205475902-ae80c174-fdd9-4280-8076-3ca93e509f30.png">
+
+![image](https://user-images.githubusercontent.com/30767136/205475898-de25afce-9d74-4264-acd4-f5c704e84fa2.png) 
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/30767136/205475902-ae80c174-fdd9-4280-8076-3ca93e509f30.png"> 
+
 #Attribute Information:
 Our target variable is a binary variable, default payment (Yes = 1, No = 0. The 23 features that we will be using to make the prediction are as follows:
 ![image](https://user-images.githubusercontent.com/30767136/205475904-1bd2e5b8-9a9b-4928-b7ac-6df742c2afe0.png)
+
 X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 X2: Gender (1 = male; 2 = female).
 X3: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).
@@ -33,6 +36,9 @@ X20: amount paid in July 2005
 X21: amount paid in June 2005
 X22: amount paid in May 2005
 X23: amount paid in April 2005
+
 ![image](https://user-images.githubusercontent.com/30767136/205475908-b7e8c12c-9300-415b-8485-7ca311d93733.png)
+
 #Goal and purpose:
+
 Our primary aim is to create a model which can predict if a transaction is fraudulent or not with fairly good confidence and also holds good when tested against a variety of external data sources. To achieve this, we aim to build a clean Machine Learning model. We will be trying to identify the key features that influence the target variable the most, and also the magnitude by which those features do so.![image](https://user-images.githubusercontent.com/30767136/205475919-0429cc16-3f57-4f4c-890d-01f71542f80c.png)
