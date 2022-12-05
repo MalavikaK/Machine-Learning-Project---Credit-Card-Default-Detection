@@ -1,4 +1,4 @@
-# Machine-Learning-Project-Credit-Card-Fraud-Detection
+# Machine-Learning-Project-Credit-Card-Default-Detection
 
 Aiming at the problem that credit card defaulting in banking sector is unbalanced, which leads to increased credit risk, it is necessary to bring useful data analysis that gives better prediction results. The goal of this project is to exploit some of the famous supervised ML algorithms to recogonize the key factors that determines the likelihood of credit card default, based on the unbalanced data that leads to unsatisfactory results. The project constructs machine learning models such as logistic regression (with regularization, lasso and ridge), Neural Networks, Support Vector Machines and combination algorithm of Naive Bayes. It also offers ways to analyze and compare accuracies of different algorithms implemented to a base-line model. 
 
