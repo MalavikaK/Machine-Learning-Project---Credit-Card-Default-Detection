@@ -3,9 +3,11 @@
 Aiming at the problem that credit card defaulting in banking sector is unbalanced, which leads to increased credit risk, it is necessary to bring useful data analysis that gives better prediction results. The goal of this project is to exploit some of the famous supervised ML algorithms to recogonize the key factors that determines the likelihood of credit card default, based on the unbalanced data that leads to unsatisfactory results. The project constructs machine learning models such as logistic regression (with regularization, lasso and ridge), Neural Networks, Support Vector Machines and combination algorithm of Naive Bayes. It also offers ways to analyze and compare accuracies of different algorithms implemented to a base-line model. 
 
 #Dataset Description:
+
 The dataset covers credit card transactions in the country of Taiwan. We have around 30000 instances and 24 attributes. A few additional characteristics of our dataset are as follows:
 
 #Attribute Information:
+
 Our target variable is a binary variable, default payment (Yes = 1, No = 0. The 23 features that we will be using to make the prediction are as follows:
 
 X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
