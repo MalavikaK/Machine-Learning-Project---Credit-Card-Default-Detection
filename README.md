@@ -4,7 +4,7 @@ Aiming at the problem that credit card defaulting in banking sector is unbalance
 
 # Dataset Description:
 
-The dataset covers credit card transactions in the country of Taiwan. We have around 30000 instances and 24 attributes. A few additional characteristics of our dataset are as follows:
+The dataset covers credit card transactions of around 30000 instances and 24 attributes. A few additional characteristics of our dataset are as follows:
 
 # Attribute Information:
 
